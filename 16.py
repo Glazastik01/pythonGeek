@@ -1,0 +1,5 @@
+n = input('Введите размер массива: ')
+nums = list(range(1, int(n) + 1))
+print(nums)
+X = int(input("Введите число: "))
+print(nums.count(X))
